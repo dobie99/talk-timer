@@ -1,0 +1,19 @@
+# Build output and release packages are attached to GitHub Releases, not committed
+.build/
+build/
+*.gmp
+*.zip
+*.review.json
+*.review-source.enc
+
+# Uncropped screenshot originals (kept locally only)
+docs/originals/
+
+# Never commit keys
+*key*.json
+
+# OS / editor
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
